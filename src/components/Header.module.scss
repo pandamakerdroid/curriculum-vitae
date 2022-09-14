@@ -1,0 +1,14 @@
+.avatar{
+    width: 384px;
+    height: 384px;
+    & img{
+        object-position: top;
+    }
+}
+
+.name{
+    text-transform: uppercase;
+    align-self: end;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}

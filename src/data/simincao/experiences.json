@@ -1,0 +1,38 @@
+{
+    "experiences":[
+        {
+            "employer_short_name": "WU Vienna",
+            "employer_name": "Vienna University of Business and Commerce",
+            "employer_size":"~2000 employees",
+            "employer_website":"https://www.wu.ac.at/",
+            "description":"",
+            "assignments":[],
+            "technologies":[],
+            "start":"2022.02",
+            "end":""
+        },
+        {
+            "employer_short_name": "msg Plaut AT",
+            "employer_name": "msg Plaut Austria GmbH",
+            "employer_size":"~200 employees",
+            "employer_website":"https://www.msg-plaut.com/at",
+            "description":"",
+            "assignments":[],
+            "technologies":[],
+            "start":"2018.03",
+            "end":"2021.08"
+        },
+        {
+            "employer_short_name": "UNIDO",
+            "employer_name": "United Nations Industrial Development Organization",
+            "employer_size":"~2000 employees",
+            "employer_website":"https://www.unido.org/",
+            "description":"",
+            "assignments":[],
+            "technologies":[],
+            "start":"2018.03",
+            "end":"2021.08"
+        },
+        {}
+    ]
+}
