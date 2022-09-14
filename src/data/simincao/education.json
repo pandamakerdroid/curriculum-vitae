@@ -1,3 +1,28 @@
 {
-    
+    "items":[
+        {
+            "short_name": "WU Vienna",
+            "name": "Vienna University of Business and Commerce",
+            "website":"https://www.wu.ac.at/",
+            "study_name":"Information Systems",
+            "degree":"Master of Science",
+            "description":"",
+            "start":"10/2016",
+            "end":"07/2021",
+            "city":"Vienna",
+            "country":"Austria"
+        },
+        {
+            "short_name": "Fontys Hochscholen",
+            "name": "Fontys University of Applied Science",
+            "website":"https://fontys.edu/",
+            "study_name":"Information Communication Technology",
+            "degree":"Bachelor of Engineering",
+            "description":"",
+            "start":"09/2009",
+            "end":"07/2013",
+            "city":"Eindhoven",
+            "country":"The Netherlands"
+        }
+    ]
 }

@@ -1,21 +1,21 @@
 import { Typography } from "@mui/material";
 import { Container } from "@mui/system";
 import styles from "./ExperienceContainer.module.scss";
-import experiences from "@simincao/experiences.json";
-import ExperienceItem from "@partials/ExperienceItem";
+import education from "@simincao/education.json";
+import EducationItem from "@partials/EducationItem";
 
 const ExperienceContainer = (props:{title:string}) => {
     return (
         <>
-            <Container className={styles['experience-container']}>
+            <Container sx={{mt:5}} className={styles['experience-container']}>
                 <Typography variant="h2" className={styles['experience-title']}>
                     {props.title}
                 </Typography>
             </Container>
             <div className={styles.divider}/>
             <Container sx={{mt:5}}>
-                {experiences.items.map((item, i)=>
-                <ExperienceItem key={item.employer_name+i} item={item}/>)}
+                {education.items.map((item, i)=>
+                <EducationItem key={item.name+i} item={item}/>)}
             </Container>
         </>
 

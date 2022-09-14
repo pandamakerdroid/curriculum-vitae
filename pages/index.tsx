@@ -4,7 +4,8 @@ const IndexPage = () => {
     return (
         <Container sx={{maxWidth:'1080px'}}>
             <Components.Header />
-            <Components.ExperienceContainer />
+            <Components.ExperienceContainer title="Experience" />
+            <Components.EducationContainer title="Education" />
             <Components.Footer />
         </Container>
     )

@@ -1,3 +1,5 @@
+$shadow:6px;
+
 .chip{
     margin:0.6rem 0.3rem;
     font-size:0.7rem;
@@ -11,14 +13,16 @@
 }
 .ReactJs:hover{
     background-color: #46acc5;
+    box-shadow: #46acc5cc 0px 0px $shadow;
 }
 
 .Python\(FastAPI\){
     background-color: #009485;
-    color:white;
+    color:#ccc;
 }
 .Python\(FastAPI\):hover{
     background-color: #01776b;
+    box-shadow: #01776b 0px 0px $shadow;
 }
 
 .OracleDB{
@@ -27,6 +31,7 @@
 }
 .OracleDB:hover{
     background-color: #d80000;
+    box-shadow: #d80000 0px 0px $shadow;
 }
 
 .KeyCloak{
@@ -34,6 +39,8 @@
 }
 .KeyCloak:hover{
     background-color: #00a753;
+    box-shadow: #00a753 0px 0px $shadow;
+
 }
 
 .MSSQLServer,
@@ -96,7 +103,7 @@
 
 .Vue:hover{
     background-color: #35495e;
-    color:white;
+    box-shadow: #41b883 0px 0px $shadow;
 }
 
 .NodeJS{
@@ -106,6 +113,7 @@
 
 .NodeJS:hover{
     background-color: #3c873a;
+    box-shadow: #303030 0px 0px $shadow;
 }
 
 .MariaDB {
@@ -131,4 +139,5 @@
 .Python:hover{
     background-color:#ffd43b;
     color: #306998;
+    box-shadow: #4B8BBE 0px 0px $shadow;
 }

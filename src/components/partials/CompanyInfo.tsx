@@ -2,8 +2,8 @@ import { Container, Typography } from "@mui/material";
 
 const CompanyInfo = (props:{employerName:string,
                             employerShortName:string,
-                            employerType:string,
-                            employerSize:string,
+                            employerType?:string,
+                            employerSize?:string,
                             employerWebsite?:string}) => 
 {
     return (
