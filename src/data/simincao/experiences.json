@@ -1,38 +1,67 @@
 {
-    "experiences":[
+    "items":[
         {
             "employer_short_name": "WU Vienna",
             "employer_name": "Vienna University of Business and Commerce",
+            "employer_type":"Public University",
             "employer_size":"~2000 employees",
             "employer_website":"https://www.wu.ac.at/",
+            "role":"FullStack Software Developer",
             "description":"",
-            "assignments":[],
-            "technologies":[],
-            "start":"2022.02",
-            "end":""
+            "assignments":[
+                "My responsibilities in this position are:",
+                "1. Fullstack development on new student portal with a stronger focus on the Frontend, tech stack React.js, Python+FastApi, OracleDB",
+                "2. Configure and upgrade Keycloak server",
+                "3. Implement keycloak custom extensions for authenticating against ID-Austria and in-house stored credentials",
+                "4. Develop OIDC authentication application against in-house Keycloak Auth server in NodeJs and Python(Flask, FastApi)"],            "technologies":["ReactJs","Python(FastAPI)","OracleDB","KeyCloak"],
+            "start":"02/2022",
+            "end":"",
+            "city":"Vienna",
+            "country":"Austria"
         },
         {
             "employer_short_name": "msg Plaut AT",
             "employer_name": "msg Plaut Austria GmbH",
+            "employer_type":"Limited Liability Company",
             "employer_size":"~200 employees",
             "employer_website":"https://www.msg-plaut.com/at",
+            "role":"Software Developer Expert",
             "description":"",
-            "assignments":[],
-            "technologies":[],
-            "start":"2018.03",
-            "end":"2021.08"
+            "assignments":[
+                "My duty in this period included 4 major tasks",
+                "1. Azure DevOps: Implemented and deployed client-oriented project with infrastructure as code utilising ARM Template and Azure Blueprint according to client demand. Achieved deployment template with customisable infrastructure resource name, client billing id and product name by",
+                "2. Azure DevOps: Implemented and improved existing Azure DevOps pipeline including dependency check service (OWASP). As a result, the pipeline increased deployment speed by 40% from 5m to 3m",
+                "3. Implemented an Azure cloud native, internal time tracking CRUD project that featured Angular as the frontend, Java Springboot as the backend and H2/MS SQL Server as the database. Implemented features includes database CRUD, azure blob container read/write.",
+                "4. Feature implementation for client PHP project, implemented HO compliance feature including UI, backend and DB read/write. Export HO data as csv files was also scope of this assignment."],
+            "technologies":["Azure(Cloud,DevOps)","Angular","Java(Springboot)","MSSQLServer","MySql","PHP"],
+            "start":"09/2021",
+            "end":"01/2022",
+            "city":"Vienna",
+            "country":"Austria"
         },
         {
             "employer_short_name": "UNIDO",
             "employer_name": "United Nations Industrial Development Organization",
+            "employer_type":"Inter-governmental Organisation",
             "employer_size":"~2000 employees",
             "employer_website":"https://www.unido.org/",
+            "role":"FullStack Developer",
             "description":"",
-            "assignments":[],
-            "technologies":[],
-            "start":"2018.03",
-            "end":"2021.08"
-        },
-        {}
+            "assignments":[
+                "My daily duties in UNIDO includes:",
+                "1. Create and maintain dockerised Gitlab with runner and dev envs",
+                "2. Design, implement and maintain GL CI/CD pipelines",
+                "3. Ubuntu Server Upgrade",
+                "4. Develop new features and refactoring for Drupal CMS",
+                "5. Drupal upgrade",
+                "6. Create Tests in selenium IDE",
+                "7. Manage 1 offshore contractor",
+                "8. Create Dashboard in ArcGIS, design and implement python data importer"],
+            "technologies":["Gitlab(DevOps)","Vue","Angular","NodeJS","MariaDB","MongoDB","Python"],
+            "start":"03/2018",
+            "end":"08/2021",
+            "city":"Vienna",
+            "country":"Austria"
+        }
     ]
 }

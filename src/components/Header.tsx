@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <>
             <Container>
-                <Box sx={{pt:5, pb:3 , display:'flex'}}>
+                <Box sx={{ml:5, pt:5, pb:3 , display:'flex'}}>
                     <Avatar 
                     variant='square'
                     className={styles.avatar}
@@ -21,14 +21,14 @@ const Header = () => {
                 </Box>
                 <Grid container spacing={0}>
                     <Grid item xs={4}>
-                        <List>
-                            {me.personal_info.map((pi) => (
-                                <Partials.PersonalInfo {...pi} />
+                        <List sx={{ml:5, mr:7}}>
+                            {me.personal_info.map((pi,i) => (
+                                <Partials.PersonalInfo key={pi.name+i} {...pi} />
                             ))}
                         </List>
                     </Grid>
-                    <Grid item xs={7}>
-                        <Typography sx={{ml:6}} >
+                    <Grid item xs={8}>
+                        <Typography >
                             {me.bio}
                         </Typography>
                     </Grid>

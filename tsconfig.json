@@ -24,6 +24,7 @@
     "paths":{
       "@components":["components/index.tsx"],
       "@partials":["components/partials/index.tsx"],
+      "@partials/*":["components/partials/*"],
       "@simincao/*":["data/simincao/*"],
       "@laipeng/*":["data/laipeng/*"],
       "@assets/*":["assets/*"]
