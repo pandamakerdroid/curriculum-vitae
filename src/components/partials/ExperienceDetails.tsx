@@ -11,10 +11,8 @@ const ExperienceDetails = (props:{role:string,
             </Typography>
             {props.assignments.map((a,i)=>
                 <Typography key={a+i}>{a}</Typography>)}
-            <div>
-                {props.technologies.map((t,i)=>
-                    <Chip className={`${styles.chip} chip`} label={t} key={t+i}/>)}
-            </div>
+            {props.technologies.map((t,i)=>
+                <Chip className={`${styles.chip} ${styles[t]}`} label={t} key={t+i}/>)}
         </Container>
     );
 
