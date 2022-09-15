@@ -158,10 +158,12 @@
 }
 @media only screen and (max-width:652.98px) {
     .top{
-        left:-5vw;
-        width:120vw;
-        max-width: 120vw;
-        transform: translateY(0%) rotateZ(-2deg);
+        left: -5vw;
+        width: 130vw;
+        max-width: 130vw;
+        -webkit-transform: translateY(0) rotate(-2deg);
+        transform: translateY(0) rotate(-2deg);
+        overflow: hidden;
     }
     
     .name{
@@ -169,14 +171,15 @@
         color:black;
     }
     .name:before{
-        content:'';
+        content: "";
         position: absolute;
-        width:350px;
-        height: 500px;
-        margin-top:-5rem;
-        transform:rotateZ(92deg);
+        width: 350px;
+        height: 525px;
+        margin-top: -6rem;
+        -webkit-transform: rotate(92deg);
+        transform: rotate(92deg);
         z-index: -1;
-        background-color: gainsboro !important;
+        background-color: #dcdcdc!important;
     }
 
     .bio{
@@ -192,7 +195,7 @@
     .bio:before{
         content:'';
         position: absolute;
-        width:300px;
+        width:380px;
         height: 500px;
         margin-top:3.5rem;
         transform:rotateZ(88deg);
