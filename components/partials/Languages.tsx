@@ -6,9 +6,11 @@ const Languages = (props:{languages:Array<{
     evaluation:string
     }>})=>{
     return (
-        props.languages.map(l=>{
-            return <Language key={l.code} name={l.name} code={l.code} proficiency={l.proficiency} evaluation={l.evaluation} />
-        })
+        <>
+            {props.languages.map(l=>{
+                return <Language key={l.code} name={l.name} code={l.code} proficiency={l.proficiency} evaluation={l.evaluation} />
+            })}
+        </>
     )
 }
 export default Languages
