@@ -8,18 +8,18 @@ const Header = () => {
     return (
         <>
             <Container>
-                <Grid sx={{ml:5, pt:5, pb:3 , display:'flex'}} container spacing={1}>
-                    <Grid item sm={5}>
+                <div className={styles.top}/>
+                <Grid sx={{ml:{xs:2, md:5}, pt:5, pb:3 , display:'flex'}} container spacing={1}>
+                    <Grid item md={4}>
                         <Avatar 
                         variant='square'
                         className={styles.avatar}
                         src={(avatarsimin as any).src} alt='avatar'/>
                     </Grid>
-                    <Grid item sm={7}>
+                    <Grid item md={8}>
                         <Typography 
                         variant="h1" 
-                        className={styles.name}
-                        >
+                        className={styles.name}>
                             {me.name}
                         </Typography>
                     </Grid>
