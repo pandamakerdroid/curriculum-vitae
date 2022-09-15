@@ -3,7 +3,17 @@ import Partials from '@partials';
 import me from "@simincao/me.json";
 import avatarsimin from "@assets/simincao.jpg";
 import styles from "./Header.module.scss"
+import { isNumberObject } from 'util/types';
 const Header = () => {
+    interface avatarPic {
+        blurDataURL:string,
+        blurHeight: number, 
+        blurWidth: number,
+        height:number,
+        src:string,
+        width:number
+    }
+    avatarsimin as {}
     return (
         <>
             <Container>
@@ -11,7 +21,7 @@ const Header = () => {
                     <Avatar 
                     variant='square'
                     className={styles.avatar}
-                    src={avatarsimin.src} alt='avatar'/>
+                    src={(avatarsimin as any).src} alt='avatar'/>
                     <Typography 
                     variant="h1" 
                     className={styles.name}
