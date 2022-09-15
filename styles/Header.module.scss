@@ -1,7 +1,7 @@
 .top{
     background-color: black;
     width: 100%;
-    max-width: 1080px;
+    max-width: 1150px;
     height: 280px;
     position: absolute;
     z-index: -1;
@@ -20,6 +20,11 @@
     & img{
         object-position: top;
     }
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-name:avatarshadow;
 }
 
 .name{
@@ -27,7 +32,7 @@
     align-self:unset;
     color:gainsboro;
     opacity:0;
-    animation-delay: 1s;
+    animation-delay: 0.5s;
     animation-duration: 2s;
     animation-name: namedropin;
     animation-iteration-count: 1;
@@ -55,6 +60,15 @@
         opacity:1;
         transform: translateY(20%);
        
+    }
+}
+
+@keyframes avatarshadow {
+    0%{
+        box-shadow: #0005 0px 0px 0px;
+    }
+    100%{
+        box-shadow: #0003 0px 0px 6px;
     }
 }
 

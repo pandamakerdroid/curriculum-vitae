@@ -10,7 +10,7 @@ const IndexPage: NextPage = () => {
                 <title>Simin Cao</title>
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             </Head>
-            <Container sx={{maxWidth:'1080px'}}>
+            <Container sx={{pl:{xs:0, sm:3},pr:{xs:0, sm:3},maxWidth:'1080px'}}>
                 <Components.Header />
                 <Components.ExperienceContainer title="Experience" />
                 <Components.EducationContainer title="Education" />

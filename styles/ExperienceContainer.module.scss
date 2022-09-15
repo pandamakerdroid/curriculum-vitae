@@ -11,9 +11,54 @@
     padding-right:2rem;
     width: fit-content;
     width: -moz-fit-content;
-    border-bottom: 1rem solid black;
+    border-bottom: 1rem solid transparent;
+    opacity: 0;
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+    animation-name: titleappear;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
 }
 
 .divider{
     border-bottom: 0.1rem solid black;
+}
+
+.decoration{
+    height:1rem;
+    width: 25rem;
+    opacity:0;
+    position: absolute;
+    background: black;
+    margin-top: 4.1rem;
+    animation-delay: 0.8s;
+    animation-duration: 1.5s;
+    animation-name: decorationappear;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes titleappear{
+    0%{
+        opacity:0;
+    }
+    50%{
+        opacity:0.7;
+        box-shadow: none;
+    }
+    100%{
+        opacity:1;
+        text-shadow: #0006 0px 0px 3px;
+    }
+}
+
+@keyframes decorationappear{
+    0%{
+        opacity:0;
+        height:0;
+    }
+    100%{
+        opacity:1;
+        height:1rem;
+    }
 }
