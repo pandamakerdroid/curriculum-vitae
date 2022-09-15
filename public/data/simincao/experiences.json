@@ -11,9 +11,10 @@
             "assignments":[
                 "My responsibilities in this position are:",
                 "Fullstack development on new student portal with a stronger focus on the Frontend, tech stack React.js, Python+FastApi, OracleDB",
-                "Configure and upgrade Keycloak server",
+                "Upgrade Keycloak server to latest version upon major changes",
                 "Implement keycloak custom extensions for authenticating against ID-Austria and in-house stored credentials",
-                "Develop OIDC authentication application against in-house Keycloak Auth server in NodeJs and Python(Flask, FastApi)"],            "technologies":["ReactJs","Python(FastAPI)","OracleDB","KeyCloak"],
+                "Develop OIDC authentication application against in-house Keycloak Auth server in NodeJs and Python(Flask, FastApi)"],
+            "technologies":["ReactJs","Python(FastAPI)","OracleDB","KeyCloak"],
             "start":"02/2022",
             "end":"",
             "city":"Vienna",
@@ -29,8 +30,8 @@
             "description":"",
             "assignments":[
                 "My duty in this period included 4 major tasks",
-                "Azure DevOps: Implemented and deployed client-oriented project with infrastructure as code utilising ARM Template and Azure Blueprint according to client demand. Achieved deployment template with customisable infrastructure resource name, client billing id and product name by",
-                "Azure DevOps: Implemented and improved existing Azure DevOps pipeline including dependency check service (OWASP). As a result, the pipeline increased deployment speed by 40% from 5m to 3m",
+                "Azure DevOps: Implemented and deployed client-oriented project with infrastructure as code utilising ARM Template and Azure Blueprint according to client demand. Achieved deployment template with customisable infrastructure resource name, client billing id and product name by tagging.",
+                "Azure DevOps: Implemented and improved existing Azure DevOps pipeline including dependency check service (OWASP). As a result, the pipeline increased deployment speed by 40% from 5m to 3m.",
                 "Implemented an Azure cloud native, internal time tracking CRUD project that featured Angular as the frontend, Java Springboot as the backend and H2/MS SQL Server as the database. Implemented features includes database CRUD, azure blob container read/write.",
                 "Feature implementation for client PHP project, implemented HO compliance feature including UI, backend and DB read/write. Export HO data as csv files was also scope of this assignment."],
             "technologies":["Azure(Cloud,DevOps)","Angular","Java(Springboot)","MSSQLServer","MySql","PHP"],

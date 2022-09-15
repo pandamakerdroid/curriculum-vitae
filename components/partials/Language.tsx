@@ -9,7 +9,7 @@ const Language = (props:{
             
     return (
     <Box sx={{ ml:14, mr:7, mt:2,pl:1, pr:1, position: 'relative', display: 'block' }}>
-      <LinearProgress color="inherit" variant="buffer" valueBuffer={100} value={props.proficiency}/>
+      <LinearProgress color="inherit" variant="determinate" value={props.proficiency}/>
       <Box
         sx={{
           top: 0,

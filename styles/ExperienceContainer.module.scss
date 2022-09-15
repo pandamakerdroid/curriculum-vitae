@@ -64,13 +64,16 @@
 }
 
 @media print {
+    .item{
+        margin-left:3rem !important;
+    }
     .decoration{
         background-color: black;
         -webkit-print-color-adjust: exact;
         margin-top:8.3rem;
     }
     .experience-title{
-        margin-top:3rem;
+        margin-top:3.3rem;
     }
     .divider{
         margin-bottom:3rem;

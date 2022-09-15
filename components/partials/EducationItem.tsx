@@ -4,6 +4,7 @@ import TimePeriod from "@partials/TimePeriod";
 import Timeline from "@partials/Timeline";
 import Location from "@partials/Location";
 import EducationDetails from "@partials/EducationDetails";
+import styles from "@styles/ExperienceItem.module.scss";
 
 const EducationItem = (props:{item:{ short_name: string,
                                 name: string,
@@ -18,7 +19,7 @@ const EducationItem = (props:{item:{ short_name: string,
     return(
         <>
             <Grid container spacing={2}>
-                <Grid item xs={3} sx={{ml:{xs:1,sm:1, md:10}, mt:2.5}}>
+                <Grid className={styles.left} item xs={3} sx={{ml:{xs:1,sm:1, md:10}, mt:2.5}}>
                     <TimePeriod start={props.item.start} end={props.item.end}/>
                     <Location city={props.item.city} country={props.item.country}/>
                 </Grid>

@@ -14,7 +14,7 @@ const ExperienceContainer = (props:{title:string}) => {
                 <div className={styles.decoration} />
             </Container>
             <div className={styles.divider}/>
-            <Container sx={{pl:{xs:0, sm:3},pr:{xs:0, sm:3},mt:5}}>
+            <Container className={styles.item} sx={{pl:{xs:0, sm:3},pr:{xs:0, sm:3},mt:5}}>
                 {experiences.items.map((item, i)=>
                 <ExperienceItem key={item.employer_name+i} item={item}/>)}
             </Container>

@@ -11,6 +11,7 @@
 
 @media print {
     .bottom{
+        display:none;
         background-color: black;
         -webkit-print-color-adjust: exact;
         bottom:0;
