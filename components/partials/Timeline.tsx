@@ -1,4 +1,4 @@
-import styles from "./Timeline.module.scss";
+import styles from "@styles/Timeline.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot } from "@fortawesome/free-solid-svg-icons";
 const Timeline = () => {

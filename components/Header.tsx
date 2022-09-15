@@ -2,7 +2,7 @@ import { Avatar, Box, Container, Typography, List, Grid } from '@mui/material';
 import Partials from '@partials';
 import me from "@simincao/me.json";
 import avatarsimin from "@assets/simincao.jpg";
-import styles from "./Header.module.scss"
+import styles from "@styles/Header.module.scss"
 
 const Header = () => {
     return (

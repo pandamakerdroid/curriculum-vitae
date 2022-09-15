@@ -1,5 +1,5 @@
 import { Chip, Container, Typography } from "@mui/material";
-import styles from "./ExperienceDetails.module.scss";
+import styles from "@styles/ExperienceDetails.module.scss";
 
 const ExperienceDetails = (props:{role:string,
                                   assignments:Array<string>,

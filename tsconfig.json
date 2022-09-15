@@ -1,19 +1,13 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
     "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "baseUrl": "src",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
@@ -23,15 +17,18 @@
     "incremental": true,
     "paths":{
       "@components":["components/index.tsx"],
+      "@components/*":["components/*"],
       "@partials":["components/partials/index.tsx"],
       "@partials/*":["components/partials/*"],
-      "@simincao/*":["data/simincao/*"],
-      "@laipeng/*":["data/laipeng/*"],
-      "@assets/*":["assets/*"]
+      "@simincao/*":["public/data/simincao/*"],
+      "@laipeng/*":["public/data/laipeng/*"],
+      "@assets/*":["public/assets/*"],
+      "@styles/*":["styles/*"]
+
     }
   },
   "include": [
-    "src"
+    "next-env.d.ts", "**/*.ts", "**/*.tsx"
   ],
   "exclude": [
     "node_modules"

@@ -1,5 +1,5 @@
 import {ListItem, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
-import styles from './PersonalInfo.module.scss'
+import styles from '@styles/PersonalInfo.module.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquarePhone, faPassport, faAt, faCakeCandles } from '@fortawesome/free-solid-svg-icons'
 
