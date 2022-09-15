@@ -6,10 +6,10 @@ const Location = (props:{city:string,country:string}) => {
     return (
         <Container>
             <Grid container >
-                <Grid item xs={4} md={2} sx={{pt:1.2}}>
+                <Grid item xs={0} md={2} sx={{display:{xs:'none', sm:'block'},pt:1.2}}>
                     <FontAwesomeIcon icon={faMapLocationDot}/>
                 </Grid>
-                <Grid item xs={8} md={10}>
+                <Grid item xs={12} md={10}>
                     <Typography variant="body2">
                         {props.city}
                     </Typography>

@@ -26,7 +26,7 @@ const EducationItem = (props:{item:{ short_name: string,
                 <Grid item xs={1}>
                     <Timeline />
                 </Grid>
-                <Grid item sx={{mt:2}} xs={7} sm={6} lg={7}>
+                <Grid item sx={{pl:{xs:0},pr:{xs:0},mt:2}} xs={7} sm={6} lg={7}>
                     <CompanyInfo employerName={props.item.name}
                                  employerShortName={props.item.short_name}
                                  employerWebsite={props.item.website}/>
