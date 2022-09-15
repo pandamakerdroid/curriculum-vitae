@@ -4,6 +4,7 @@ import ExperienceDetails from "@partials/ExperienceDetails";
 import TimePeriod from "@partials/TimePeriod";
 import Timeline from "@partials/Timeline";
 import Location from "@partials/Location";
+import styles from "@styles/ExperienceItem.module.scss";
 const ExperienceItem = (props:{item:{ employer_short_name: string,
                                 employer_name: string,
                                 employer_type:string,
@@ -20,7 +21,7 @@ const ExperienceItem = (props:{item:{ employer_short_name: string,
                                 country:string}}) => {
     return(
         <Grid container spacing={1}>
-            <Grid item xs={3} sx={{ml:{xs:1,sm:1, md:10}, mt:2.5}}>
+            <Grid className={styles.left} item xs={3} sx={{ml:{xs:1,sm:1, md:10}, mt:2.5}}>
                 <TimePeriod start={props.item.start} end={props.item.end}/>
                 <Location city={props.item.city} country={props.item.country}/>
             </Grid>
