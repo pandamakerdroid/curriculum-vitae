@@ -1,4 +1,4 @@
-import { Avatar, Box, Container, Typography, List, Grid } from '@mui/material';
+import { Avatar, Container, Typography, List, Grid } from '@mui/material';
 import Partials from '@partials';
 import me from "@simincao/me.json";
 import avatarsimin from "@assets/simincao.jpg";
@@ -27,19 +27,19 @@ const Header = () => {
 
                 <Grid container spacing={0}>
                     <Grid item xs={12} sx={{display:{xs:'block', md: 'none'}}}>
-                        <Typography >
+                        <Typography className={styles.bio}>
                             {me.bio}
                         </Typography>
                     </Grid>
                     <Grid item sm={4}>
-                        <List sx={{ml:5, mr:7}}>
+                        <List sx={{ml:5, mr:7}} className={styles.pi}>
                             {me.personal_info.map((pi,i) => (
                                 <Partials.PersonalInfo key={pi.name+i} {...pi} />
                             ))}
                         </List>
                     </Grid>
                     <Grid item sm={8} sx={{display:{xs:'none', md:'block'}}}>
-                        <Typography >
+                        <Typography className={styles.bio}>
                             {me.bio}
                         </Typography>
                     </Grid>
