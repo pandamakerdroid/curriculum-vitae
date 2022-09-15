@@ -18,14 +18,14 @@ const EducationItem = (props:{item:{ short_name: string,
     return(
         <>
             <Grid container spacing={2}>
-                <Grid item xs={3} sx={{ml:10, mt:2.5}}>
+                <Grid item xs={3} sx={{ml:{xs:1,sm:1, md:10}, mt:2.5}}>
                     <TimePeriod start={props.item.start} end={props.item.end}/>
                     <Location city={props.item.city} country={props.item.country}/>
                 </Grid>
                 <Grid item xs={1}>
                     <Timeline />
                 </Grid>
-                <Grid item sx={{mt:2}} xs={7}>
+                <Grid item sx={{mt:2}} xs={7} sm={6}>
                     <CompanyInfo employerName={props.item.name}
                                  employerShortName={props.item.short_name}
                                  employerWebsite={props.item.website}/>

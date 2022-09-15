@@ -8,27 +8,37 @@ const Header = () => {
     return (
         <>
             <Container>
-                <Box sx={{ml:5, pt:5, pb:3 , display:'flex'}}>
-                    <Avatar 
-                    variant='square'
-                    className={styles.avatar}
-                    src={(avatarsimin as any).src} alt='avatar'/>
-                    <Typography 
-                    variant="h1" 
-                    className={styles.name}
-                    >
-                        {me.name}
-                    </Typography>
-                </Box>
+                <Grid sx={{ml:5, pt:5, pb:3 , display:'flex'}} container spacing={1}>
+                    <Grid item sm={5}>
+                        <Avatar 
+                        variant='square'
+                        className={styles.avatar}
+                        src={(avatarsimin as any).src} alt='avatar'/>
+                    </Grid>
+                    <Grid item sm={7}>
+                        <Typography 
+                        variant="h1" 
+                        className={styles.name}
+                        >
+                            {me.name}
+                        </Typography>
+                    </Grid>
+                </Grid>
+
                 <Grid container spacing={0}>
-                    <Grid item xs={4}>
+                    <Grid item xs={12} sx={{display:{xs:'block', md: 'none'}}}>
+                        <Typography >
+                            {me.bio}
+                        </Typography>
+                    </Grid>
+                    <Grid item sm={4}>
                         <List sx={{ml:5, mr:7}}>
                             {me.personal_info.map((pi,i) => (
                                 <Partials.PersonalInfo key={pi.name+i} {...pi} />
                             ))}
                         </List>
                     </Grid>
-                    <Grid item xs={8}>
+                    <Grid item sm={8} sx={{display:{xs:'none', md:'block'}}}>
                         <Typography >
                             {me.bio}
                         </Typography>
