@@ -1,5 +1,5 @@
 import { Box, LinearProgress, Typography } from "@mui/material";
-import styles from '@styles/Languages.module.scss';
+
 const Language = (props:{
         name:string,
         code:string,

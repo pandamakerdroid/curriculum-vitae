@@ -7,7 +7,7 @@ const Languages = (props:{languages:Array<{
     }>})=>{
     return (
         props.languages.map(l=>{
-            return <Language name={l.name} code={l.code} proficiency={l.proficiency} evaluation={l.evaluation} />
+            return <Language key={l.code} name={l.name} code={l.code} proficiency={l.proficiency} evaluation={l.evaluation} />
         })
     )
 }
