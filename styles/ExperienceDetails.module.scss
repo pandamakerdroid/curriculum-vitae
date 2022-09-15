@@ -9,7 +9,7 @@ $shadow:6px;
 }
 
 .ReactJs{
-    background-color: #61DBFB;
+    background-color: #61DBFB !important;
 }
 .ReactJs:hover{
     background-color: #46acc5;
@@ -17,8 +17,8 @@ $shadow:6px;
 }
 
 .Python\(FastAPI\){
-    background-color: #009485;
-    color:#ccc;
+    background-color: #009485 !important;
+    color:#ccc !important;
 }
 .Python\(FastAPI\):hover{
     background-color: #01776b;
@@ -26,8 +26,8 @@ $shadow:6px;
 }
 
 .OracleDB{
-    background-color: #f80000;
-    color:white;
+    background-color: #f80000 !important;
+    color:white !important;
 }
 .OracleDB:hover{
     background-color: #d80000;
@@ -35,7 +35,7 @@ $shadow:6px;
 }
 
 .KeyCloak{
-    background-color: #02ca66;
+    background-color: #02ca66 !important;
 }
 .KeyCloak:hover{
     background-color: #00a753;
@@ -45,8 +45,8 @@ $shadow:6px;
 
 .MSSQLServer,
 .Azure\(Cloud\,DevOps\){
-    background-color: #0080FF;
-    color:white;
+    background-color: #0080FF !important;
+    color:white !important;
 }
 .MSSQLServer:hover,
 .Azure\(Cloud\,DevOps\):hover{
@@ -54,24 +54,24 @@ $shadow:6px;
 }
 
 .Angular{
-    background-color: #dd1b16;
-    color:white;
+    background-color: #dd1b16 !important;
+    color:white !important;
 }
 .Angular:hover{
     background-color: #a6120d;
 }
 
 .Java\(Springboot\){
-    background-color:#f89820;
-    color:white;
+    background-color:#f89820 !important;
+    color:white !important;
 }
 .Java\(Springboot\):hover{
     background-color:#b9721c;
 }
 
 .MySql{
-    background-color:#f29111;
-    color:white;
+    background-color:#f29111 !important;
+    color:white !important;
 }
 
 .MySql:hover{
@@ -79,8 +79,8 @@ $shadow:6px;
 }
 
 .PHP{
-    background-color:#777BB3;
-    color:white;
+    background-color:#777BB3 !important;
+    color:white !important;
 }
 
 .PHP:hover{
@@ -88,8 +88,8 @@ $shadow:6px;
 }
 
 .Gitlab\(DevOps\){
-    background-color: #fc6d27;
-    color:white;
+    background-color: #fc6d27 !important;
+    color:white !important;
 }
 
 .Gitlab\(DevOps\):hover{
@@ -97,7 +97,7 @@ $shadow:6px;
 }
 
 .Vue{
-    background-color: #41b883;
+    background-color: #41b883 !important;
     color:white;
 }
 
@@ -107,8 +107,8 @@ $shadow:6px;
 }
 
 .NodeJS{
-    background-color: #68a063;
-    color:#303030;
+    background-color: #68a063 !important;
+    color:#303030 !important;
 }
 
 .NodeJS:hover{
@@ -117,24 +117,24 @@ $shadow:6px;
 }
 
 .MariaDB {
-    background-color: #20536f;
-    color:white;
+    background-color: #20536f !important;
+    color:white !important;
 }
 .MariaDB:hover{
     background-color:#000;
 }
 
 .MongoDB{
-    background-color:#4DB33D;
-    color:#E8E7D5;
+    background-color:#4DB33D !important;
+    color:#E8E7D5 !important;
 }
 .MongoDB:hover{
     background-color:#3FA037;
 }
 
 .Python{
-    background-color:#ffe873;
-    color: #4B8BBE;
+    background-color:#ffe873 !important;
+    color: #4B8BBE !important;
 }
 .Python:hover{
     background-color:#ffd43b;
