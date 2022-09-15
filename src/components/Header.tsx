@@ -1,19 +1,10 @@
-import { Avatar, Box, Container, Typography, List, ListItem, ListItemButton, ListItemIcon, ListItemText, Grid } from '@mui/material';
+import { Avatar, Box, Container, Typography, List, Grid } from '@mui/material';
 import Partials from '@partials';
 import me from "@simincao/me.json";
 import avatarsimin from "@assets/simincao.jpg";
 import styles from "./Header.module.scss"
-import { isNumberObject } from 'util/types';
+
 const Header = () => {
-    interface avatarPic {
-        blurDataURL:string,
-        blurHeight: number, 
-        blurWidth: number,
-        height:number,
-        src:string,
-        width:number
-    }
-    avatarsimin as {}
     return (
         <>
             <Container>
