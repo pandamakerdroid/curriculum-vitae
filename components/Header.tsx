@@ -37,6 +37,7 @@ const Header = () => {
                                 <Partials.PersonalInfo key={pi.name+i} {...pi} />
                             ))}
                         </List>
+                        <Partials.Languages languages={me.languages}/>
                     </Grid>
                     <Grid item sm={8} sx={{display:{xs:'none', md:'block'}}}>
                         <Typography className={styles.bio}>

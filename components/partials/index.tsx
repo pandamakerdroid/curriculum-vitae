@@ -4,6 +4,8 @@ import ExperienceDertails from "./ExperienceDetails";
 import ExperienceItem from "./ExperienceItem";
 import EducationItem from "./EducationItem";
 import EducationDetails from "./EducationDetails";
+import Language from './Language';
+import Languages from './Languages';
 
 const Partials = {
     PersonalInfo,
@@ -12,6 +14,8 @@ const Partials = {
     ExperienceItem,
     EducationDetails,
     EducationItem,
+    Language,
+    Languages
 }
 
 export default Partials;

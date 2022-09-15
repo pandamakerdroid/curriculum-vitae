@@ -13,22 +13,27 @@
         {
             "name":"Chinese",
             "code":"CN",
-            "proficiency":1
+            "proficiency":100,
+            "evaluation":"mother tongue"
         },
         {
             "name":"English",
             "code":"EN",
-            "proficiency":1
+            "proficiency":99,
+            "evaluation":"bilingual"
+
         },
         {   
             "name":"German",
             "code":"DE",
-            "proficiency":2
+            "proficiency":80,
+            "evaluation":"full working proficiency"
         },
         {   
             "name":"Dutch",
             "code":"NL",
-            "proficiency":4
+            "proficiency":50,
+            "evaluation":"limited working proficiency"
         }
     ]
 }

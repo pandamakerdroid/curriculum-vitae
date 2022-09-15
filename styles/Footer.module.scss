@@ -7,9 +7,12 @@
     height: 50px;
     z-index: -1;
     border-top: 5px solid gainsboro;
-    animation-duration: 3s;
-    animation-name: headerbgdropin;
-    animation-iteration-count: 1;
-    animation-direction: alternate;
-    animation-fill-mode: forwards;
+}
+
+@media print {
+    .bottom{
+        background-color: black;
+        -webkit-print-color-adjust: exact;
+        bottom:0;
+    }
 }

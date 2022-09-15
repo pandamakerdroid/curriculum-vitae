@@ -170,5 +170,24 @@
     .top{
         background-color: black;
         -webkit-print-color-adjust: exact;
+        overflow: hidden;
+    }
+
+    .name{
+        font-size:4.2rem;
+        position:absolute;
+        left:45%;
+        top:6rem;
+        color:gainsboro;
+        
+    }
+
+    .bio{
+        animation:none;
+        position:absolute;
+        padding-top:1rem;
+        left:45%;
+        width: 48%;
+        opacity:1;
     }
 }

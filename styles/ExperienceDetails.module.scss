@@ -141,3 +141,11 @@ $shadow:6px;
     color: #306998;
     box-shadow: #4B8BBE 0px 0px $shadow;
 }
+
+@media print {
+    .chip{
+        background-color: white;
+        -webkit-print-color-adjust: exact;
+        color:black;
+    }
+}
