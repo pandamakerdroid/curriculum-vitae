@@ -134,11 +134,12 @@ $shadow:6px;
 
 .Vue{
     background-color: #41b883 !important;
-    color:white;
+    color:#35495e !important;
 }
 
 .Vue:hover{
     background-color: #35495e !important;
+    color:white !important;
     box-shadow: #41b883 0px 0px $shadow;
 }
 
