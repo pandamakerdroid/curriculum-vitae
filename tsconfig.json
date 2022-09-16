@@ -23,7 +23,8 @@
       "@simincao/*":["public/data/simincao/*"],
       "@laipeng/*":["public/data/laipeng/*"],
       "@assets/*":["public/assets/*"],
-      "@styles/*":["styles/*"]
+      "@styles/*":["styles/*"],
+      "@hooks/*":["hooks/*"]
 
     }
   },

@@ -13,11 +13,6 @@
     width: -moz-fit-content;
     border-bottom: 1rem solid transparent;
     opacity: 0;
-    animation-delay: 0.2s;
-    animation-duration: 3s;
-    animation-name: titleappear;
-    animation-fill-mode:forwards;
-    animation-iteration-count: 1;
 }
 
 .divider{
@@ -31,9 +26,21 @@
     position: absolute;
     background: black;
     margin-top: 4.1rem;
-    animation-delay: 0.8s;
+}
+
+.titleappear{
+    animation-delay: 0.2s;
+    animation-duration: 3s;
+    animation-name: titleappear;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+}
+
+.decorationappear{
+    animation-delay: 0.2s;
     animation-duration: 1.5s;
     animation-name: decorationappear;
+    animation-timing-function:  ease-out;
     animation-fill-mode:forwards;
     animation-iteration-count: 1;
 }
