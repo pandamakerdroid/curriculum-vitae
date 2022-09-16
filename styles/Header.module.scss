@@ -6,12 +6,13 @@
     position: absolute;
     z-index: -1;
     margin-top: -21px;
-    border-bottom: 5px solid gainsboro;
+    border-bottom: 5px solid transparent;
     animation-duration: 3s;
     animation-name: headerbgdropin;
     animation-iteration-count: 1;
     animation-direction: alternate;
     animation-fill-mode: forwards;
+    transition: border-bottom 0.5s;
 }
 
 .avatar{
@@ -32,12 +33,13 @@
     align-self:unset;
     color:gainsboro;
     opacity:0;
-    animation-delay: 0.5s;
+    animation-delay: 1s;
     animation-duration: 2s;
     animation-name: namedropin;
     animation-iteration-count: 1;
     animation-direction: alternate;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
 .pi{
@@ -63,20 +65,26 @@
 @keyframes headerbgdropin {
     from {
       opacity:0.7;
-      transform: translateY(-40%) rotateZ(2deg);
+      transform: translateY(-40%) rotateX(0deg);
     }
   
     to {
-      transform: translateY(0%) rotateZ(-2deg);
+      transform: translateY(0%) rotateX(-0.5deg);
+      border-bottom: 5px solid gainsboro;
+      transition: border-bottom 2s;
     }
 }
 
 @keyframes namedropin {
-    from{
+    0%{
         opacity: 0;
         transform: translateY(-50%);
+        background-color: transparent;
     }
-    to{
+    80%{
+        background-color: transparent;
+    }
+    100%{
         opacity:1;
         transform: translateY(20%);
         text-shadow: #0006 0px 0px 3px;
@@ -176,8 +184,8 @@
         width: 350px;
         height: 525px;
         margin-top: -6rem;
-        -webkit-transform: rotate(92deg);
-        transform: rotate(92deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(89.5deg);
         z-index: -1;
         background-color: #dcdcdc!important;
     }
@@ -197,8 +205,8 @@
         position: absolute;
         width:380px;
         height: 500px;
-        margin-top:3.5rem;
-        transform:rotateZ(88deg);
+        margin-top:2.2rem;
+        transform:rotateZ(89.5deg);
         z-index: -1;
         background-color: gainsboro !important;
     }

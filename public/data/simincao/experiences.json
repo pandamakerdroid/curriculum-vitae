@@ -90,7 +90,7 @@
             "description":"",
             "assignments":[
                 "During this period, I have implemented an Android app that reads device info and receive push notification from Google Cloud, also maintain a php in-house CMS"],
-            "technologies":["Bitbucket","Java","Android","Php"],
+            "technologies":["BitBucket","Java","Android","PHP"],
             "start":"03/2015",
             "end":"08/2013",
             "city":"Amsterdam",

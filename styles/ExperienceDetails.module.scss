@@ -10,10 +10,12 @@ $shadow:6px;
 
 .ReactJs{
     background-color: #61DBFB !important;
+    transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 .ReactJs:hover{
     background-color: #46acc5;
     box-shadow: #46acc5cc 0px 0px $shadow;
+    transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
 .Python\(FastAPI\){
@@ -43,14 +45,33 @@ $shadow:6px;
 
 }
 
+.\.Net,
+.C\#,
+.Xamarin,
 .MSSQLServer,
 .Azure\(Cloud\,DevOps\){
     background-color: #0080FF !important;
     color:white !important;
 }
+
+.\.Net:hover,
+.C\#:hover,
+.Xamarin:hover,
 .MSSQLServer:hover,
 .Azure\(Cloud\,DevOps\):hover{
-    background-color: #0263c4;
+    background-color: #0263c4 !important;
+    box-shadow: #0080FF 0px 0px $shadow;
+}
+
+
+.BitBucket {
+    background-color: #2684FF !important;
+    color: white !important
+}
+
+.BitBucket:hover{
+    background-color: #0357D1;
+    box-shadow: #253858 0px 0px $shadow;
 }
 
 .Angular{
@@ -61,12 +82,25 @@ $shadow:6px;
     background-color: #a6120d;
 }
 
+.Android{
+    background-color: #32DE84 !important;
+}
+.Android:hover{
+    background-color: #A4C639 !important;
+    box-shadow: #32DE84 0px 0px $shadow;
+}
+
+.Java,
 .Java\(Springboot\){
     background-color:#f89820 !important;
     color:white !important;
 }
+
+.Java:hover,
 .Java\(Springboot\):hover{
-    background-color:#b9721c;
+    background-color:#b9721c !important;
+    box-shadow:#f89820 0px 0px $shadow;
+
 }
 
 .MySql{
@@ -94,6 +128,8 @@ $shadow:6px;
 
 .Gitlab\(DevOps\):hover{
     background-color: #e2432a;
+    box-shadow: #fc6d27 0px 0px $shadow;
+
 }
 
 .Vue{
@@ -102,7 +138,7 @@ $shadow:6px;
 }
 
 .Vue:hover{
-    background-color: #35495e;
+    background-color: #35495e !important;
     box-shadow: #41b883 0px 0px $shadow;
 }
 
@@ -140,6 +176,18 @@ $shadow:6px;
     background-color:#ffd43b;
     color: #306998;
     box-shadow: #4B8BBE 0px 0px $shadow;
+}
+
+.Sqlite{
+    transition: color 0.8s, background-color 3s;
+}
+
+
+.Sqlite:hover{
+    background-color: #999;
+    box-shadow: #777 0px 0px $shadow;
+    color:white;
+    transition: color 0.8s, background-color 3s;
 }
 
 @media print {
