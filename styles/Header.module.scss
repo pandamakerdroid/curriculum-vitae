@@ -62,6 +62,136 @@
     animation-fill-mode: forwards;
 }
 
+.header-sm{
+    background-color: white;
+    height: 6rem;
+    width:100vw;
+    z-index: 1050;
+    left:0;
+    opacity:0;
+}
+
+.header-sm-appear{
+    animation-name:headersmdropin;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.header-sm-disappear{
+    animation-name:headersmfoldup;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+.avatar-sm{
+    width: 5rem !important;
+    height: 5rem !important;
+    & img{
+        object-position: top;
+    }
+    animation-delay: 0.5s;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-name:avatarshadow;
+}
+.name-sm{
+    text-transform: uppercase;
+    align-self:unset;
+    color:black;
+    font-size:2.6rem;
+    margin-top:0rem;
+}
+
+.pi-small{
+    margin-top:0.25rem;
+}
+
+.email-fab{
+    position: fixed;
+    bottom:5rem;
+    right:10rem;
+    font-size:1.3rem;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: email-fab-bg 15s ease infinite;
+    color:#fff9;
+    transition: color 2s;
+}
+.email-fab:hover{
+    color:#ffff;
+    transition: color 0.4s;
+}
+.email-effect{
+    position: fixed;
+    animation-name: email-effect;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+
+}
+
+@keyframes email-effect {
+    0%{
+        transform:scale(1);
+        opacity: 0.25;
+    }
+    75%{
+        transform:scale(1.15);
+        opacity: 0.2;
+    }
+    100%{
+        transform:scale(1.8);
+        opacity:0;
+    }
+    
+}
+
+@keyframes email-fab-bg {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes headersmdropin {
+    from {
+      opacity:0.7;
+      transform: translateY(-40%);
+      box-shadow: none;
+      transition: border-bottom 2s;
+    }
+  
+    to {
+      opacity:1;
+      transform: translateY(0%);
+      box-shadow: 0 0 5px #0003;
+      transition: border-bottom 2s, opacity 2s;
+    }
+}
+@keyframes headersmfoldup {
+    0% {
+        opacity:1;
+        transform: translateY(0%);
+        box-shadow: 0 0 5px #0003;
+        transition: border-bottom 2s, opacity 2s; 
+    }
+    100% {
+        opacity:0;
+        transform: translateY(-100%);
+        box-shadow:none;
+        transition: border-bottom 2s, opacity 2s;      
+    }
+}
+
+
 @keyframes headerbgdropin {
     from {
       opacity:0.7;
@@ -209,6 +339,24 @@
         transform:rotateZ(89.5deg);
         z-index: -1;
         background-color: gainsboro !important;
+    }
+
+    .avatar-sm{
+        margin-left:-3rem !important;
+        margin-top:0.5rem !important;
+    }
+    .header-sm{
+        height: 9rem !important;
+        left:0 !important;
+        position:fixed !important;
+    }
+    .pi-small{
+        margin-top:-4rem !important;
+        margin-left:2rem !important;
+    }
+    .email-fab{
+        bottom:2rem !important;
+        right:8rem !important;
     }
 }
 @media print {
