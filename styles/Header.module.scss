@@ -110,14 +110,14 @@
 }
 
 .email-fab{
-    position: fixed;
-    bottom:5rem;
-    right:10rem;
+    position: fixed !important;
+    bottom:5rem !important;
+    right:10rem !important;
     font-size:1.3rem;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
 	background-size: 400% 400%;
 	animation: email-fab-bg 15s ease infinite;
-    color:#fff9;
+    color:#fff9 !important;
     transition: color 2s;
 }
 .email-fab:hover{
