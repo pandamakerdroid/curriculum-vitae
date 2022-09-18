@@ -303,7 +303,9 @@
         transform: translateY(0) rotate(-2deg);
         overflow-x: clip;
     }
-    
+    .div{
+        display: none;
+    }
     .name{
         font-size:3.2rem;
         color:black;
@@ -311,11 +313,10 @@
     .name:before{
         content: "";
         position: absolute;
-        width: 350px;
-        height: 525px;
-        margin-top: -6rem;
-        -webkit-transform: rotate(90deg);
-        transform: rotate(89.5deg);
+        left: -3rem;
+        width: 100vw;
+        height: 400px;
+        margin-top: -0.5rem;
         z-index: -1;
         background-color: #dcdcdc!important;
         overflow-x: clip;
@@ -333,12 +334,11 @@
         overflow-x: clip;
     }
     .bio:before{
-        content:'';
+        content: "";
         position: absolute;
-        width:380px;
-        height: 500px;
-        margin-top:2.2rem;
-        transform:rotateZ(89.5deg);
+        width: 102vw;
+        left: 0;
+        height: 30rem;
         z-index: -1;
         background-color: gainsboro !important;
     }
@@ -349,17 +349,16 @@
     }
     .header-sm{
         height: 9rem !important;
-        left:0 !important;
         position:fixed !important;
     }
     .pi-small{
-        margin-top: 4rem!important;
-        margin-left: -3rem!important;
+        margin-top: 3.5rem!important;
+        margin-left: 0!important;
         position: fixed;
     }
     .email-fab{
         bottom:4rem !important;
-        right:6rem !important;
+        right:3rem !important;
     }
 }
 @media print {
