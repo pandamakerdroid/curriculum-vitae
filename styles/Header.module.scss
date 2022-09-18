@@ -297,11 +297,11 @@
 @media only screen and (max-width:652.98px) {
     .top{
         left: -5vw;
-        width: 130vw;
-        max-width: 130vw;
+        width: 100vw;
+        max-width: 100vw;
         -webkit-transform: translateY(0) rotate(-2deg);
         transform: translateY(0) rotate(-2deg);
-        overflow: hidden;
+        overflow-x: clip;
     }
     
     .name{
@@ -318,6 +318,7 @@
         transform: rotate(89.5deg);
         z-index: -1;
         background-color: #dcdcdc!important;
+        overflow-x: clip;
     }
 
     .bio{
@@ -329,6 +330,7 @@
         padding-left:3.5rem !important;
         padding-right:5rem !important;
         background-color: gainsboro !important;
+        overflow-x: clip;
     }
     .bio:before{
         content:'';
