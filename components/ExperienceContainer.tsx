@@ -15,7 +15,7 @@ const ExperienceContainer = (props:{title:string}) => {
 
     return (
         <>
-            <Container sx={{pl:{xs:0, sm:3},pr:{xs:0, sm:3}, mt:5}} className={styles['experience-container']}>
+            <Container sx={{pl:{xs:0, sm:3},pr:{xs:0, sm:3}, mt:5, w:100}} className={styles['experience-container']}>
                 <Typography variant="h2" className={`${styles['experience-title']} ${isVisible?styles.titleappear:''}`}>
                     {props.title}
                 </Typography>

@@ -114,7 +114,7 @@
     bottom:5rem !important;
     right:10rem !important;
     font-size:1.3rem;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) !important;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: email-fab-bg 15s ease infinite;
     color:#fff9 !important;
@@ -357,7 +357,7 @@
     }
     .email-fab{
         bottom:2rem !important;
-        right:8rem !important;
+        right:2rem !important;
     }
 }
 @media print {
