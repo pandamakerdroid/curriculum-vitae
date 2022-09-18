@@ -255,7 +255,7 @@
 @media only screen and (min-width:865px) and (max-width:1199.98px) {
     .top{
         left: 0;
-        max-width: 120vw;
+        max-width: 100vw;
     }
     
     .name{
@@ -266,8 +266,8 @@
 
 @media only screen and (min-width:712px) and (max-width:864px) {
     .top{
-        left:-5vw;
-        width: 120vw;
+        left:0;
+        width: 100vw;
         transform: translateY(0%) rotateZ(-2deg);
     }
     
@@ -279,8 +279,8 @@
 }
 @media only screen and (min-width:653px) and (max-width:711.98px) {
     .top{
-        left:-5vw;
-        width: 120vw;
+        left:0;
+        width: 100vw;
         transform: translateY(0%) rotateZ(-2deg);
     }
     
@@ -296,7 +296,7 @@
 }
 @media only screen and (max-width:652.98px) {
     .top{
-        left: -5vw;
+        left: 0;
         width: 100vw;
         max-width: 100vw;
         -webkit-transform: translateY(0) rotate(-2deg);
@@ -358,8 +358,8 @@
         position: fixed;
     }
     .email-fab{
-        bottom:2rem !important;
-        right:2rem !important;
+        bottom:4rem !important;
+        right:6rem !important;
     }
 }
 @media print {

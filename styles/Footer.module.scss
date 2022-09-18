@@ -6,7 +6,16 @@
     max-width: 100%;
     height: 50px;
     z-index: -1;
+    margin-left: 0;
     border-top: 5px solid gainsboro;
+}
+
+@media only screen and (max-width:652.98px) {
+    .bottom{
+        margin-left: -0.5rem !important;
+        width: 100vw !important;
+        max-width: 100vw !important;
+    }
 }
 
 @media print {
