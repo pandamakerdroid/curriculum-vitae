@@ -90,13 +90,10 @@ const Header = () => {
                 ))}
                 </Grid>
             </Grid>
-            <Tooltip title='email me'>
-                <Fab className={styles['email-fab']} href={me.personal_info.filter(pi=>pi.name==='email')[0]['href']}>
-                    <FontAwesomeIcon icon={faAt} />
-                    <FontAwesomeIcon icon={faAt} className={styles['email-effect']} />
-                </Fab>
-            </Tooltip>
-
+            <Fab className={styles['email-fab']} href={me.personal_info.filter(pi=>pi.name==='email')[0]['href']}>
+                <FontAwesomeIcon icon={faAt} />
+                <FontAwesomeIcon icon={faAt} className={styles['email-effect']} />
+            </Fab>
         </>
     )
 }
