@@ -316,7 +316,7 @@
         left: -3rem;
         width: 100vw;
         height: 45rem;
-        margin-top: -0.5rem;
+        margin-top: -1rem;
         z-index: -1;
         background-color: #dcdcdc!important;
         overflow-x: clip;
@@ -347,9 +347,15 @@
         height: 9rem !important;
         position:fixed !important;
     }
+    .name-sm {
+        color: #000;
+        font-size: 2.6rem !important;
+        margin-top: 0.3rem !important;
+    }
+
     .pi-small{
         margin-top: 3.5rem!important;
-        margin-left: 0!important;
+        margin-left: 1.5rem!important;
         position: fixed;
     }
     .email-fab{
