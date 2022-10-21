@@ -140,7 +140,7 @@
     }
     75%{
         transform:scale(1.15);
-        opacity: 0.2;
+        opacity: 0.3;
     }
     100%{
         transform:scale(1.8);
@@ -365,6 +365,9 @@
     }
 }
 @media print {
+    .email-fab{
+        display: none;
+    }
     .top{
         background-color: black;
         -webkit-print-color-adjust: exact;

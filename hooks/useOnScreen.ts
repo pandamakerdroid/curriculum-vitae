@@ -15,7 +15,7 @@ export default function useOnScreen(ref:RefObject<HTMLElement>) {
       // Remove the observer as soon as the component is unmounted
       return () => {       
         if( ref && ref.current){
-          observer.observe(ref.current)
+          observer.unobserve(ref.current)
         } 
       }
     }, [])
