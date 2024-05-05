@@ -1,6 +1,30 @@
 {
     "items":[
         {
+            "employer_short_name": "Posedio",
+            "employer_name": "Posedio GmbH",
+            "employer_type":"Private Company",
+            "employer_size":"~50 employees",
+            "employer_website":"https://www.posedio.com/",
+            "role":"Senior Software Developer",
+            "description":"",
+            "assignments":[
+                "Design and implementing Client project that does contract management including calendar month based financial figure calculation and reporting dashboards",
+                "Concrete responsibilities include:",
+                "Design, implementation, and management of cloud infrastructure as IaaS using Terraform, Azure CLI/Powershell, and Azure Portal",
+                "Design and full-stack development of the SaaS solution on frontend, backend, database, and DevOps with Java + Spring Boot, Liquibase, SQL, and TypeScript + Next.js.",
+                "Development of OIDC authentication with Microsoft Entra ID using MSAL in TypeScript",
+                "Design and implementation across multiple test/staging/demo environments for the project",
+                "Design and implementation of deployment pipelines for multiple environments.",
+                "Code profiling and bottleneck optimisation.",
+                "Task distribution and coordination within the team"],
+            "technologies":["Azure","Terraform","Java(Springboot)","Liquibase","MySql","bash","ReactJs","Next.js"],
+            "start":"03/2023",
+            "end":"",
+            "city":"Vienna",
+            "country":"Austria"
+        },
+        {
             "employer_short_name": "WU Vienna",
             "employer_name": "Vienna University of Business and Commerce",
             "employer_type":"Public University",
@@ -16,7 +40,7 @@
                 "Develop OIDC authentication application against in-house Keycloak Auth server in NodeJs and Python(Flask, FastApi)"],
             "technologies":["ReactJs","Python(FastAPI)","OracleDB","KeyCloak"],
             "start":"02/2022",
-            "end":"",
+            "end":"02/2023",
             "city":"Vienna",
             "country":"Austria"
         },
