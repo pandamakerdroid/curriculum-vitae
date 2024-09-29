@@ -74,7 +74,7 @@
             "description":"",
             "assignments":[
                 "My daily duties in UNIDO included:",
-                "Create and maintain dockerised Gitlab with runner and dev envs",
+                "Host and maintain dockerised on-premise Gitlab server and runner",
                 "Design, implement and maintain GL CI/CD pipelines",
                 "Fullstack development with Angular.js and Node.js",
                 "Drupal CMS feature/custom module development and maintanence",
