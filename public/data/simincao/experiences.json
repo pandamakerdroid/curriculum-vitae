@@ -58,7 +58,7 @@
                 "Azure DevOps: Implemented and improved existing Azure DevOps pipeline including dependency check service (OWASP). As a result, the pipeline increased deployment speed by 40% from 5m to 3m.",
                 "Implemented an Azure cloud native, internal time tracking CRUD project that featured Angular as the frontend, Java Springboot as the backend and H2/MS SQL Server as the database. Implemented features includes database CRUD, azure blob container read/write.",
                 "Feature implementation for client PHP project, implemented HO compliance feature including UI, backend and DB read/write. Export HO data as csv files was also scope of this assignment."],
-            "technologies":["Azure(Cloud,DevOps)","Angular","Java(Springboot)","MSSQLServer","MySql","PHP"],
+            "technologies":["Azure","Angular","Java(Springboot)","MSSQLServer","MySql"],
             "start":"09/2021",
             "end":"01/2022",
             "city":"Vienna",
