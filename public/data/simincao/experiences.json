@@ -16,7 +16,7 @@
                 "Implement of OIDC based authentication",
                 "Design and implement deployment pipelines across multiple environments for the project",
                 "Code profiling and optimisation",
-                "Implement Monitoring and Alerting over performance issues with Prometheus and Grafana",
+                "Implement Monitoring and Alerting in Prometheus and Grafana",
                 "Distribute tasks and coordinate within the team"],
             "technologies":["Azure","Terraform","Java(Springboot)","Liquibase","MySql","bash","ReactJs","Next.js", "Prometheus", "Docker"],
             "start":"03/2023",
