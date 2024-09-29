@@ -19,20 +19,20 @@
         {
             "name":"English",
             "code":"EN",
-            "proficiency":99,
+            "proficiency":80,
             "evaluation":"bilingual"
 
         },
         {   
             "name":"German",
             "code":"DE",
-            "proficiency":80,
+            "proficiency":50,
             "evaluation":"full working proficiency"
         },
         {   
             "name":"Dutch",
             "code":"NL",
-            "proficiency":50,
+            "proficiency":30,
             "evaluation":"limited working proficiency"
         }
     ]
