@@ -17,7 +17,7 @@
                 "Code profiling and optimisation",
                 "Implement Monitoring and Alerting in Prometheus and Grafana",
                 "Distribute tasks and coordinate within the team"],
-            "technologies":["Azure","Terraform","Java(Springboot)","Liquibase","MySql","bash","ReactJs","Next.js", "Prometheus", "Docker"],
+            "technologies":["Azure","Terraform","Java(Springboot)","Liquibase","MySql","bash","ReactJs","Next.js", "Prometheus", "Grafana", "Docker"],
             "start":"03/2023",
             "end":"",
             "city":"Vienna",
