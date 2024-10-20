@@ -13,6 +13,8 @@
                 "Designed and implemented a client project for a contract management system, including object-oriented component creation and reporting. Key responsibilities included:", 
                 "Designed, implemented, and managed cloud infrastructure as IaaS using Terraform, Azure CLI/PowerShell, and Azure Portal.", 
                 "Designed, developed, and unit tested the SaaS solution across frontend, backend, database, and DevOps layers using Java, Spring Boot, Liquibase, Hibernate, TypeScript, React, and Next.js.", 
+                "Prepared various documents for client communication and internal knowledge sharing, including design documents, phase closure reports for major feature releases.",
+                "Prepared systems for security auditing",
                 "Implemented OIDC-based authentication.", 
                 "Designed and implemented deployment pipelines across multiple environments for the project.", 
                 "Conducted code profiling and optimization.", 
@@ -37,6 +39,7 @@
                 "My responsibilities in this position included:",
                 "Full-stack development on a new student portal, with a stronger focus on the frontend using JavaScript React, and backend development in FastAPI and OracleDB.", 
                 "Co-setup and upgraded Keycloak server to the latest version following major updates.", 
+                "Created documentation for implemented features to facilitate internal knowledge sharing.",
                 "Implemented Keycloak custom extensions for authenticating against ID-Austria and in-house stored credentials.", 
                 "Developed OIDC authentication application against the in-house Keycloak server using Node.js and FastAPI." 
             ],
