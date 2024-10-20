@@ -9,10 +9,6 @@ $shadow: 6px;
     }
 }
 
-.JavaScript {
-    background-color: #f7df1e;
-    transition: color 0.8s, background-color 3s, box-shadow 1s;
-}
 
 .React {
     background-color: #61DBFB !important;
@@ -25,13 +21,15 @@ $shadow: 6px;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.Next\.js {
+.Next\.js,
+.bash {
     background-color: #000 !important;
     color: #fff !important;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.Next\.js:hover {
+.Next\.js:hover,
+.bash:hover {
     background-color: #333;
     box-shadow: #111 0px 0px $shadow;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
@@ -69,13 +67,18 @@ $shadow: 6px;
 
 }
 
+.JavaScript {
+    background-color: #f7df1e;
+    transition: color 0.8s, background-color 3s, box-shadow 1s;
+}
+
 .\.Net,
 .C\#,
 .Xamarin,
 .MSSQLServer,
 .Azure,
 .Docker,
-.Typescript,
+.TypeScript,
 .PowerShell {
     background-color: #0080FF !important;
     color: white !important;
@@ -121,7 +124,8 @@ $shadow: 6px;
 }
 
 .Java,
-.Spring\ Boot\, .Kotlin,
+.Spring\ Boot,
+.Kotlin,
 .Liquibase,
 .Hibernate,
 .Grafana {
@@ -178,14 +182,14 @@ $shadow: 6px;
     box-shadow: #41b883 0px 0px $shadow;
 }
 
-.NodeJS,
+.NodeJs,
 .MsSqlServer,
 .MsSql {
     background-color: #68a063 !important;
     color: #303030 !important;
 }
 
-.NodeJS:hover {
+.NodeJs:hover {
     background-color: #3c873a;
     box-shadow: #303030 0px 0px $shadow;
 }
