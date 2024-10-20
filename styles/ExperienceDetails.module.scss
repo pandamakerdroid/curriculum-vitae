@@ -14,25 +14,37 @@ $shadow: 6px;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.React,
-.Next\.js {
+.React {
     background-color: #61DBFB !important;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.React:hover,
-.Next\.js:hover {
+.React:hover {
     background-color: #46acc5;
     box-shadow: #46acc5cc 0px 0px $shadow;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.Python\(FastAPI\) {
+.Next\.js {
+    background-color: #000 !important;
+    color: #fff !important;
+    transition: color 0.8s, background-color 3s, box-shadow 1s;
+}
+
+.Next\.js:hover {
+    background-color: #333;
+    box-shadow: #111 0px 0px $shadow;
+    transition: color 0.8s, background-color 3s, box-shadow 1s;
+}
+
+.Python,
+.FastAPI {
     background-color: #009485 !important;
     color: #ccc !important;
 }
 
-.Python\(FastAPI\):hover {
+.Python:hover,
+.FastAPI\:hover {
     background-color: #01776b;
     box-shadow: #01776b 0px 0px $shadow;
 }
