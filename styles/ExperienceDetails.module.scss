@@ -9,12 +9,14 @@ $shadow: 6px;
     }
 }
 
-.ReactJs {
+.React,
+.Next\.js {
     background-color: #61DBFB !important;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.ReactJs:hover {
+.React:hover,
+.Next\.js:hover {
     background-color: #46acc5;
     box-shadow: #46acc5cc 0px 0px $shadow;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
@@ -55,7 +57,9 @@ $shadow: 6px;
 .Xamarin,
 .MSSQLServer,
 .Azure,
-.Docker {
+.Docker,
+.Typescript,
+.PowerShell {
     background-color: #0080FF !important;
     color: white !important;
 }
@@ -80,7 +84,8 @@ $shadow: 6px;
     box-shadow: #253858 0px 0px $shadow;
 }
 
-.Angular {
+.Angular,
+.Prometheus {
     background-color: #dd1b16 !important;
     color: white !important;
 }
@@ -99,9 +104,10 @@ $shadow: 6px;
 }
 
 .Java,
-.Kotlin\(Spring\ Boot\),
-.Java\(Spring\ Boot\),
-.Java\(Springboot\) {
+.Spring\ Boot\, .Kotlin,
+.Liquibase,
+.Hibernate,
+.Grafana {
     background-color: #f89820 !important;
     color: white !important;
 }
@@ -122,12 +128,14 @@ $shadow: 6px;
     background-color: #c5760d;
 }
 
-.PHP {
+.PHP,
+.Terraform {
     background-color: #777BB3 !important;
     color: white !important;
 }
 
-.PHP:hover {
+.PHP:hover,
+.Terraform:hover {
     background-color: #484C89;
 }
 
@@ -153,7 +161,9 @@ $shadow: 6px;
     box-shadow: #41b883 0px 0px $shadow;
 }
 
-.NodeJS {
+.NodeJS,
+.MsSqlServer,
+.MsSql {
     background-color: #68a063 !important;
     color: #303030 !important;
 }
