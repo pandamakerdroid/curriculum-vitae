@@ -54,10 +54,10 @@
             "assignments":[
                 "My duty in this period included 4 major tasks",
                 "Implemented and deployed Cloud native Infrastructure IaC using ARM Template and Azure Blueprint with custom tagging.",
-                "Fullstack development of cloud native app that does time tracking in Angular, Java (Spring Boot), H2/MSSQL and blob storage.",
+                "Fullstack development of cloud native app that does time tracking in Angular, Java (Spring Boot), Kotlin (Spring Boot), H2/MSSQL and blob storage.",
                 "Implemented and optimise existing Azure DevOps pipeline.",
                 "Implemented HO compliance feature on client project that manipulates DB Data and csv export."],
-            "technologies":["Azure","Angular","Java(Spring Boot)","MsSqlServer","MySql"],
+            "technologies":["Azure","Angular","Java(Spring Boot)","Kotlin(Spring Boot)","MsSqlServer","MySql"],
             "start":"09/2021",
             "end":"01/2022",
             "city":"Vienna",

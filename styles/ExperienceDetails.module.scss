@@ -1,45 +1,50 @@
-$shadow:6px;
+$shadow: 6px;
 
-.chip{
-    margin:0.6rem 0.3rem;
-    font-size:0.7rem;
-    &>span{
+.chip {
+    margin: 0.6rem 0.3rem;
+    font-size: 0.7rem;
+
+    &>span {
         padding: 0 0.7rem;
     }
 }
 
-.ReactJs{
+.ReactJs {
     background-color: #61DBFB !important;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
-.ReactJs:hover{
+
+.ReactJs:hover {
     background-color: #46acc5;
     box-shadow: #46acc5cc 0px 0px $shadow;
     transition: color 0.8s, background-color 3s, box-shadow 1s;
 }
 
-.Python\(FastAPI\){
+.Python\(FastAPI\) {
     background-color: #009485 !important;
-    color:#ccc !important;
+    color: #ccc !important;
 }
-.Python\(FastAPI\):hover{
+
+.Python\(FastAPI\):hover {
     background-color: #01776b;
     box-shadow: #01776b 0px 0px $shadow;
 }
 
-.OracleDB{
+.OracleDB {
     background-color: #f80000 !important;
-    color:white !important;
+    color: white !important;
 }
-.OracleDB:hover{
+
+.OracleDB:hover {
     background-color: #d80000;
     box-shadow: #d80000 0px 0px $shadow;
 }
 
-.KeyCloak{
+.KeyCloak {
     background-color: #02ca66 !important;
 }
-.KeyCloak:hover{
+
+.KeyCloak:hover {
     background-color: #00a753;
     box-shadow: #00a753 0px 0px $shadow;
 
@@ -50,16 +55,16 @@ $shadow:6px;
 .Xamarin,
 .MSSQLServer,
 .Azure,
-.Docker{
+.Docker {
     background-color: #0080FF !important;
-    color:white !important;
+    color: white !important;
 }
 
 .\.Net:hover,
 .C\#:hover,
 .Xamarin:hover,
 .MSSQLServer:hover,
-.Azure\(Cloud\,DevOps\):hover{
+.Azure\(Cloud\,DevOps\):hover {
     background-color: #0263c4 !important;
     box-shadow: #0080FF 0px 0px $shadow;
 }
@@ -70,133 +75,139 @@ $shadow:6px;
     color: white !important
 }
 
-.BitBucket:hover{
+.BitBucket:hover {
     background-color: #0357D1;
     box-shadow: #253858 0px 0px $shadow;
 }
 
-.Angular{
+.Angular {
     background-color: #dd1b16 !important;
-    color:white !important;
+    color: white !important;
 }
-.Angular:hover{
+
+.Angular:hover {
     background-color: #a6120d;
 }
 
-.Android{
+.Android {
     background-color: #32DE84 !important;
 }
-.Android:hover{
+
+.Android:hover {
     background-color: #A4C639 !important;
     box-shadow: #32DE84 0px 0px $shadow;
 }
 
 .Java,
+.Kotlin\(Spring\ Boot\),
 .Java\(Spring\ Boot\),
-.Java\(Springboot\){
-    background-color:#f89820 !important;
-    color:white !important;
+.Java\(Springboot\) {
+    background-color: #f89820 !important;
+    color: white !important;
 }
 
 .Java:hover,
-.Java\(Springboot\):hover{
-    background-color:#b9721c !important;
-    box-shadow:#f89820 0px 0px $shadow;
+.Java\(Springboot\):hover {
+    background-color: #b9721c !important;
+    box-shadow: #f89820 0px 0px $shadow;
 
 }
 
-.MySql{
-    background-color:#f29111 !important;
-    color:white !important;
+.MySql {
+    background-color: #f29111 !important;
+    color: white !important;
 }
 
-.MySql:hover{
-    background-color:#c5760d;
+.MySql:hover {
+    background-color: #c5760d;
 }
 
-.PHP{
-    background-color:#777BB3 !important;
-    color:white !important;
+.PHP {
+    background-color: #777BB3 !important;
+    color: white !important;
 }
 
-.PHP:hover{
+.PHP:hover {
     background-color: #484C89;
 }
 
-.Gitlab\(DevOps\){
+.Gitlab\(DevOps\) {
     background-color: #fc6d27 !important;
-    color:white !important;
+    color: white !important;
 }
 
-.Gitlab\(DevOps\):hover{
+.Gitlab\(DevOps\):hover {
     background-color: #e2432a;
     box-shadow: #fc6d27 0px 0px $shadow;
 
 }
 
-.Vue{
+.Vue {
     background-color: #41b883 !important;
-    color:#35495e !important;
+    color: #35495e !important;
 }
 
-.Vue:hover{
+.Vue:hover {
     background-color: #35495e !important;
-    color:white !important;
+    color: white !important;
     box-shadow: #41b883 0px 0px $shadow;
 }
 
-.NodeJS{
+.NodeJS {
     background-color: #68a063 !important;
-    color:#303030 !important;
+    color: #303030 !important;
 }
 
-.NodeJS:hover{
+.NodeJS:hover {
     background-color: #3c873a;
     box-shadow: #303030 0px 0px $shadow;
 }
 
 .MariaDB {
     background-color: #20536f !important;
-    color:white !important;
-}
-.MariaDB:hover{
-    background-color:#000;
+    color: white !important;
 }
 
-.MongoDB{
-    background-color:#4DB33D !important;
-    color:#E8E7D5 !important;
-}
-.MongoDB:hover{
-    background-color:#3FA037;
+.MariaDB:hover {
+    background-color: #000;
 }
 
-.Python{
-    background-color:#ffe873 !important;
+.MongoDB {
+    background-color: #4DB33D !important;
+    color: #E8E7D5 !important;
+}
+
+.MongoDB:hover {
+    background-color: #3FA037;
+}
+
+.Python {
+    background-color: #ffe873 !important;
     color: #4B8BBE !important;
 }
-.Python:hover{
-    background-color:#ffd43b;
+
+.Python:hover {
+    background-color: #ffd43b;
     color: #306998;
     box-shadow: #4B8BBE 0px 0px $shadow;
 }
 
-.Sqlite{
+.Sqlite {
     transition: color 0.8s, background-color 3s;
 }
 
 
-.Sqlite:hover{
+.Sqlite:hover {
     background-color: #999;
     box-shadow: #777 0px 0px $shadow;
-    color:white;
+    color: white;
     transition: color 0.8s, background-color 3s;
 }
 
 @media print {
-    .chip{
+    .chip {
         background-color: white;
         -webkit-print-color-adjust: exact;
-        color:black;
+        color: black;
     }
 }
