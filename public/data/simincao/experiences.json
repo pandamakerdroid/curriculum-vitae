@@ -11,13 +11,13 @@
             "assignments":[ 
                 "My responsibilities in this position included:",
                 "Designed and implemented a client project for a contract management system, including object-oriented component creation and reporting. Key responsibilities included:", 
-                "Designed, implemented, and managed cloud infrastructure as IaaS using Terraform, Azure CLI/PowerShell, and Azure Portal.", 
-                "Designed, developed, and unit tested the SaaS contract management web application across frontend, backend, database, and DevOps layers using Java (Spring Boot), Liquibase, Hibernate, React, and Next.js.", 
+                "Designed, implemented, and managed cloud infrastructure as code using Terraform, Azure CLI/PowerShell, and Azure Portal.", 
+                "Designed, developed, and unit tested a contract management web application across frontend, backend, database, and DevOps layers using Java (Spring Boot), Liquibase, Hibernate, React, and Next.js.", 
                 "Prepared various documents for client communication and internal knowledge sharing, including design documents, phase closure reports for major feature releases.",
                 "Prepared systems for security auditing",
                 "Implemented OIDC-based authentication.", 
                 "Designed and implemented deployment pipelines across multiple environments for the project.", 
-                "Conducted code profiling and optimization.", 
+                "Conducted code profiling and optimisation.", 
                 "Custom implementation of Wagtail CMS in Python with Django framework including simple headless frontend in React",
                 "Implemented monitoring and alerting using Prometheus and Grafana.", 
                 "Distributed tasks and coordinated efforts within the team."
@@ -62,7 +62,7 @@
                 "My responsibilities in this position included:",
                 "Implemented and deployed cloud-native infrastructure as IaC using ARM Template and Azure Blueprint with custom tagging.", 
                 "Full-stack development of a cloud-native time-tracking application using TypeScript, Angular, Java, Spring Boot, Kotlin, H2/MSSQL, and Blob Storage.", 
-                "Implemented and optimized the existing Azure DevOps pipeline.", 
+                "Implemented and optimised the existing Azure DevOps pipeline.", 
                 "Implemented HO compliance features on a client project that involved database manipulation and CSV export." 
             ],
             "technologies":["Azure","TypeScript", "Angular", "Java", "Kotlin", "Spring Boot", "Hibernate", "MsSqlServer", "MySql"],
