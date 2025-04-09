@@ -18,11 +18,10 @@
                 "Implemented OIDC-based authentication.", 
                 "Designed and implemented deployment pipelines across multiple environments for the project.", 
                 "Conducted code profiling and optimisation.", 
-                "Custom implementation of Wagtail CMS in Python with Django framework including simple headless frontend in React",
                 "Implemented monitoring and alerting using Prometheus and Grafana.", 
                 "Distributed tasks and coordinated efforts within the team."
             ],
-            "technologies":["Azure","Terraform", "Java", "Spring Boot","TypeScript", "React", "Next.js", "Python", "Django", "Liquibase", "Hibernate", "MySql", "bash", "PowerShell", "Prometheus", "Grafana", "Docker"],
+            "technologies":["Azure","Terraform", "Java", "Spring Boot","TypeScript", "React", "Next.js", "Liquibase", "Hibernate", "MySql", "bash", "PowerShell", "Prometheus", "Grafana", "Docker"],
             "start":"03/2023",
             "end":"01/2025",
             "city":"Vienna",
